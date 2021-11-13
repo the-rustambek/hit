@@ -186,7 +186,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
       <h4 class="hs_heading" id="hs_appointment_form_link">Book an Appointment</h4>
       <div class="hs_appointment_form_div"> <img src="./images/temp/med10.jpg" width="512" height="365" alt=""/>
         <div class="hs_appointment_form">
-          <form method="post">
+          <form class="formElement" method="post" enctype="application/x-www-form-urlencoded">
             <div class="row">
               <div class="col-lg-6 col-md-7 col-sm-6">
                 <!-- <div class="form-group">
@@ -197,16 +197,16 @@ Purchase: http://themeforest.net/user/kamleshyadav
                   </select>
                 </div> -->
                 <div class="form-group">
-                  <input type="text" class="form-control" id="slider_fname" name="name" placeholder="Name" required>
+                  <input type="text" class="form-control name" id="slider_fname" name="name" placeholder="Name" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="slider_fname" name="surname" placeholder="Surname" required>
+                    <input type="text" class="form-control surname" id="slider_fname" name="surname" placeholder="Surname" required>
                   </div>
                 <div class="form-group">
-                  <input type="text" id="slider_phone" name="phone" class="form-control"  placeholder="+998931487733" required>
+                  <input type="text" id="slider_phone " name="phone" class="form-control phone"  placeholder="+998931487733" required>
                 </div>
                 <div class="form-group">
-                   <textarea name="" id="" cols="27" rows="5" placeholder="About your complaint"></textarea>
+                   <textarea name="" id="" cols="27" class="textarea" rows="5" placeholder="About your complaint"></textarea>
                   </div>
                   
 <!--          
@@ -345,44 +345,34 @@ Purchase: http://themeforest.net/user/kamleshyadav
 
 
 <script>
+ const formElement = document.querySelector(".formElement");
+ const nameElement = document.querySelector(".name");
+ const surnameElement = document.querySelector(".surname");
+ const phoneElement = document.querySelector(".phone");
+ const textareElement = document.querySelector(".textarea")
 
-async function medic(){
+ formElement.addEventListener("submit", async (e) => {
+      let response = await fetch("http://10.18.32.57:1234/main_api/doctors/", {
+        headers: {
+          "Content-Type": "application/json"
+        },
+        method: "post",
+        body: {
+          name: nameElement.value,
+          surname: surnameElement.value,
+          phone: phoneElement.value,
+          description: textareElement.value
+        }
+      })
 
 
-// const formElement = document.querys
- let response = await fetch("http://10.18.32.57:1234/main_api/doctors/",{
-         method: "POST",
-         headers: {
-             "Content-Type": "application/json",
-         },
-      
-         body: JSON.stringify({
-            name: nameInput.value,
-            phone: phoneInput.value,
-            email: emailInput.value,
-            textarea: textarea.value,
-        })
+      response = await response.json();
+
+      console.log(response);
+ })
+
+
  
-        
-
-
-     })
- 
-     response =  await response.json()
-
-     for(let data of response){
-
-
-
-     }
-
-   
- console.log(response);
-}
-
-
-
- medic();
  </script>
 
 
