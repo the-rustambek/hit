@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Health Care HTML Template
+Version: 1.1.0
+Author: Kamleshyadav
+Website: http://himanshusofttech.com/
+Purchase: http://themeforest.net/user/kamleshyadav
+-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+	<!-- page title-->
+	<title>Health Care HTML Template</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Health Care, health" />
+	<meta name="description" content="Health Care HTML Template" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!--start theme style -->
+    <link rel="stylesheet" href="css/animate.css" media="screen"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen"/>
+	<link rel="stylesheet" href="css/font-awesome.css" media="screen"/>
+	<link rel="stylesheet" href="css/fonts.css" media="screen"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css" media="screen"/>
+	<link rel="stylesheet" href="css/owl.theme.default.min.css" media="screen"/>
+	<link rel="stylesheet" href="css/jquery.bxslider.css" media="screen"/>
+	<link rel="stylesheet" href="css/style.css" media="screen"/>
+	<link rel="stylesheet" id="theme-color" type="text/css" href="#"/>
+    <!-- favicon links -->
+    <link rel="shortcut icon" type="image/png" href="favicon.ico">
+</head>
+<body>
+<!--Pre loader start-->
+<div id="preloader">
+	<div class="loading">
+		<svg version="1.2" height="300" width="600" xmlns="http://www.w3.org/2000/svg"
+			viewport="0 0 60 60" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<path id="pulsar" stroke="rgba(0,155,155,1)" fill="none" stroke-width="2"stroke-linejoin="round" d="M0,90L250,90Q257,60 262,87T267,95 270,88 273,92t6,35 7,-60T290,127 297,107s2,-11 10,-10 1,1 8,-10T319,95c6,4 8,-6 10,-17s2,10 9,11h210" />
+		</svg>
+	</div>
+</div>
+<!--pre loader end--> 
+<!-- color picker start -->
+<div id="style-switcher" class="hs_color_set">
+  <div>
+    <h3>color options</h3>
+    <ul class="colors">
+      <li>
+        <p class='colorchange' id='color'></p>
+      </li>
+      <li>
+        <p class='colorchange' id='color2'></p>
+      </li>
+      <li>
+        <p class='colorchange' id='color3'></p>
+      </li>
+      <li>
+        <p class='colorchange' id='color4'></p>
+      </li>
+      <li>
+        <p class='colorchange' id='color5'></p>
+      </li>
+      <li>
+        <p class='colorchange' id='style'></p>
+      </li>
+    </ul>
+    <h3>Theme Option</h3>
+    <select class="rock_themeoption" onchange="location = this.options[this.selectedIndex].value;">
+      <option>Select Option</option>
+      <option value="one_page.html">Single Page</option>
+      <option value="index.html">Multi Pages</option>
+    </select>
+    <p> </p>
+  </div>
+  <div class="bottom"> <a href="" class="settings"><i class="fa fa-gear"></i></a> </div>
+</div>
+<!-- color picker end --> 
+<!--header start-->
+<div class="hlc_topheader">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12">
+				<div class="hlc_topheader_textleft">
+					<p><i class="fa fa-calendar-plus-o" aria-hidden="true"></i> Opening Hours: 6.00 am - 11.00 pm (Mon - Sat)</p>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12">
+				<div class="hlc_topheader_textright">
+					<p><i class="fa fa-volume-control-phone" aria-hidden="true"></i> Question? Call Us at +(0321) 752 8659</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<header id="hs_header" class="hc_fixed_header">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-12">
+          <div id="hs_logo" > <a data-link="hc_home"> <img src="images/logo.svg" alt=""> </a> </div>
+          <!-- #logo --> 
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-10">
+          <button type="button" class="hs_nav_toggle navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Menu<i class="fa fa-bars"></i></button>
+          <nav>
+            <ul class="hs_menu collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <li data-link="hc_home"><a class="active">Home</a></li>
+              <li data-link="hc_service"><a>services</a></li>
+              <li data-link="hc_team"><a>our Team</a></li>
+              <li data-link="hc_event"><a>Event</a></li>
+              <li data-link="hc_about"><a>About</a></li>
+              <li data-link="hc_contact"><a>Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2">
+          <div class="hs_social">
+            <ul>
+              <li><a href=""><i class="fa fa-facebook"></i></a></li>
+              <li><a href=""><i class="fa fa-twitter"></i></a></li>
+              <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="" id="hs_search"><i class="fa fa-search"></i></a></li>
+            </ul>
+          </div>
+          <div class="hs_search_box">
+            <form class="form-inline" role="form">
+              <div class="form-group has-success has-feedback">
+                <input type="text" class="form-control" id="inputSuccess4" placeholder="Search">
+                <span class="glyphicon glyphicon-search form-control-feedback"></span> </div>
+            </form>
+          </div>
+          
+          <!-- #logo --> 
+        </div>
+    </div>
+    <!-- .row --> 
+  </div>
+  <!-- .container --> 
+  
+</header>
+<!--header end-->
+
+<div id="hc_single">
+  <div class="hc_section" data-target="hc_home" id="hc_home"> 
+    <!--slider start-->
+	<div class="health_slider">
+		<div class="owl-carousel owl-theme">
+			<div class="item">
+				<div class="hlc_slider_details">
+					<img class="animated fadeInDown" src="http://placehold.it/1920X950" alt="...">
+					<div class="hlc_slider_details_text">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-12">
+									<h1 class="hs_slider_title animated bounceInDown">Meet Our Doctor’s Team</h1>
+									<p class="lead animated pulse">Suspendisse eu sem tortor Etiam rhoncus viverra mi ac tempor turpis rutrum in.<br> Vivamus porttitor rhoncus tellus, id ultricies eros gravida ut.</p>
+									<a href="" class="btn btn-default animated fadeInRightBig">Know More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="hlc_slider_details">
+					<img class="animated fadeInDown" src="http://placehold.it/1920X950" alt="...">
+					<div class="hlc_slider_details_text">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-12">
+									<h1 class="hs_slider_title animated bounceInDown">Book your Appointment</h1>
+									<p class="lead animated pulse">Suspendisse eu sem tortor Etiam rhoncus viverra mi ac tempor turpis rutrum in.<br> Vivamus porttitor rhoncus tellus, id ultricies eros gravida ut.</p>
+									<a href="" class="btn btn-default animated fadeInRightBig">Know More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!--layer slider ends--> 
+  </div>
+  <div class="hc_section" data-target="hc_service" id="hc_service">
+    <div class="container-fluid">
+      <div class="container"> 
+        <!--service start-->
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="hs_service">
+              <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8">
+                  <h4>Diabetes and Obesity Counseling</h4>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4" style="text-align:center;"> <svg version="1.1" id="Layer_13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="80px" height="80px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                  <path d="M48.691,57.705l4.135,20.465l-0.459,0.501c-0.483,0.529-1.168,0.83-1.886,0.83c0,0,0,0-0.003,0
+	c-0.716-0.001-1.4-0.303-1.886-0.833L29.484,57.705h2.264c1.774,0,3.309-1.265,3.65-3.007l2.078-10.648l2.355,10.732
+	c0.371,1.693,1.898,2.923,3.633,2.923H48.691z M20.31,46.961c0.685,1.127,1.484,2.229,2.401,3.305h5.974l4.927-25.25
+	c0.337-1.722,1.854-2.987,3.608-3.007c1.813,0.014,3.304,1.218,3.677,2.927l5.56,25.33h5.279c1.761,0,3.294,1.253,3.646,2.98
+	l1.444,7.153l0.871-6.56c0.246-1.841,1.832-3.229,3.688-3.229h16.652l0.155-0.17c0.027-0.032,0.057-0.063,0.084-0.097
+	c0.878-1.063,1.643-2.132,2.305-3.212l1.737-3.448c0.929-2.343,1.387-4.75,1.387-7.257c0-10.401-7.835-19-17.912-20.222
+	l-1.343-0.121c-0.372-0.021-0.744-0.032-1.119-0.032c-4.746,0-9.221,1.602-12.84,4.557c-3.618-2.955-8.095-4.557-12.841-4.557
+	c-0.351,0-0.699,0.009-1.045,0.026l-1.346,0.119C25.149,17.384,17.275,26,17.275,36.426c0,2.447,0.447,4.821,1.336,7.109
+	L20.31,46.961z M63.521,66.479l7.71-8.43h-6.591L63.521,66.479z M82.11,53.222H61.467c-0.532,0-0.983,0.394-1.054,0.922
+	l-2.965,22.304l-4.589-22.719c-0.101-0.496-0.536-0.852-1.041-0.852h-7.416l-6.02-27.422c-0.106-0.491-0.527-0.831-1.05-0.834
+	c-0.503,0.005-0.935,0.365-1.03,0.859l-5.347,27.398H17.358c-0.588,0-1.063,0.476-1.063,1.063c0,0.587,0.475,1.063,1.063,1.063
+	h14.473c0.509,0,0.945-0.36,1.043-0.859l4.532-23.226l5.104,23.25c0.107,0.488,0.539,0.835,1.038,0.835h7.4l5.675,28.094
+	c0.102,0.497,0.538,0.852,1.042,0.852c0.012,0,0.024,0,0.036,0c0.519-0.018,0.949-0.407,1.018-0.922l3.679-27.679H82.11
+	c0.587,0,1.063-0.476,1.063-1.063S82.697,53.222,82.11,53.222z"/>
+                  </svg> </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <p>Quisque vitae interdum ipsum. Nulla eget mper nulla. Proin lacinia urna quis tortor </p>
+                  <a href="blog-single-post-rightsidebar.html" class="btn btn-default">Read More</a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="hs_service">
+              <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8">
+                  <h4>Obstetrics and Gynaecology</h4>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4" style="text-align:center;"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="60px" height="80px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                  <path d="M448,160c17.656,0,32,14.344,32,32v256c0,17.656-14.344,32-32,32H64c-17.641,0-32-14.344-32-32V192
+	c0-17.656,14.359-32,32-32H448 M448,128H64c-35.344,0-64,28.656-64,64v256c0,35.344,28.656,64,64,64h384c35.344,0,64-28.656,64-64
+	V192C512,156.656,483.344,128,448,128L448,128z M160,96V64c0-17.625,14.359-32,32-32h128c17.656,0,32,14.375,32,32v32h32V64
+	c0-35.344-28.656-64-64-64H192c-35.344,0-64,28.656-64,64v32H160z M352,288h-64v-64h-64v64h-64v64h64v64h64v-64h64V288z"/>
+                  </svg> </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <p>Quisque vitae interdum ipsum. Nulla eget mper nulla. Proin lacinia urna quis tortor </p>
+                  <a href="blog-single-post-rightsidebar.html" class="btn btn-default">Read More</a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="hs_service">
+              <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8">
+                  <h4>Surgical and medical Oncology</h4>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4" style="text-align:center;"> <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="60px" height="80px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+                  <g>
+                    <path d="M18.69,26.219c-1.494,1.838-3.781,3.012-6.361,3.012c-4.502,0-8.105-3.68-8.105-8.158c0-2.651,1.437-5.005,3.36-6.493
+		v-2.791c-3.254,1.766-5.775,5.226-5.775,9.246c0,5.802,4.716,10.599,10.551,10.599c3.767,0,7.035-2.067,8.897-4.929
+		c-0.137-0.312-0.292-0.614-0.442-0.919C20.109,25.951,19.402,26.094,18.69,26.219z"/>
+                    <ellipse cx="12.702" cy="3.745" rx="3.766" ry="3.745"/>
+                    <path d="M29.054,28.471l-3.933-9.099c-0.461-1.066-1.619-1.65-2.751-1.392l-7.922,1.825l-0.009-8.517
+		c-0.002-1.33-1.08-2.43-2.409-2.43c0,0-0.002,0-0.003,0c-1.33,0-2.406,1.105-2.406,2.434l0.012,11.528
+		c0,0.733,0.336,1.433,0.91,1.889c0.574,0.457,1.326,0.632,2.038,0.466l8.915-2.052l3.136,7.257c0.394,0.91,1.28,1.454,2.212,1.454
+		c0.319,0,0.644-0.063,0.955-0.198C29.02,31.11,29.581,29.692,29.054,28.471z"/>
+                  </g>
+                  </svg> </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <p>Quisque vitae interdum ipsum. Nulla eget mper nulla. Proin lacinia urna quis tortor </p>
+                  <a href="blog-single-post-rightsidebar.html" class="btn btn-default">Read More</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--service end-->
+        
+        <div class="row"> 
+          <!--what we do start-->
+          <div class="col-lg-6 col-md-7 col-sm-12">
+            <h4 class="hs_heading">What we do</h4>
+            <div class="hs_tab">
+              <ul id="myTab" class="nav nav-tabs">
+                <li class="active"><a href="#services1" data-toggle="tab">services # 1</a></li>
+                <li><a href="#services2" data-toggle="tab">services # 2</a></li>
+                <li><a href="#services3" data-toggle="tab">services # 3</a></li>
+              </ul>
+              <div id="myTabContent" class="tab-content">
+				  <div class="tab-pane fade in active" id="services1">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6"> <img width="228" height="252" src="http://placehold.it/263X290" alt="" /> </div>
+						<div class="col-lg-6 col-md-6 col-sm-6">
+						  <h4 class="hs_theme_color">Morbi id pulvinar enim. Vestibulum sed .</h4>
+						  <p>Cras velit ligula, sodaleut enim quis, venenatis feugiat ante. lus facilisis nisl. Praesent aliquet</p>
+						  <p>sollicitudin leo, eu oare nibh sodales et. Vestibulum blandit,eu oare nibh sodales et. </p>
+						  <div class="hs_margin_30"></div>
+						  <a href="blog-single-post-rightsidebar.html" class="btn btn-default">Read More</a><div class="hs_margin_20"></div> </div>
+					</div>
+				  </div>
+				  <div class="tab-pane fade" id="services2">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6">
+						  <h4 class="hs_theme_color">Morbi id pulvinar enim. Vestibulum sed .</h4>
+						  <p>Cras velit ligula, sodaleut enim quis, venenatis feugiat ante. lus facilisis nisl. Praesent aliquet</p>
+						  <p>sollicitudin leo, eu oare nibh sodales et. Vestibulum blandit,eu oare nibh sodales et. </p>
+						  <div class="hs_margin_30"></div>
+						  <a href="blog-single-post-rightsidebar.html" class="btn btn-default">Read More</a><div class="hs_margin_20"></div> </div>
+						<div class="col-lg-6 col-md-6 col-sm-6"> <img width="228" height="252" src="http://placehold.it/263X290" alt="" /> </div>
+					</div>
+				  </div>
+				  <div class="tab-pane fade" id="services3">
+					<div class="row">
+					  <div class="col-lg-12 col-md-12 col-sm-12"> <img width="515" height="252" src="http://placehold.it/555X273" alt="" />
+						<h4 class="hs_theme_color">Morbi id pulvinar enim. Vestibulum sed .</h4>
+						<p>Cras velit ligula, sodaleut enim quis, venenatis feugiat ante. lus facilisis nisl. Praesent aliquet. sollicitudin leo, eu oare nibh sodales et. Vestibulum blandit, </p>
+						<a href="blog-single-post-rightsidebar.html" class="btn btn-default">Read More</a><div class="hs_margin_20"></div> </div>
+					</div>
+				  </div>
+				</div>
+            </div>
+          </div>
+          <!--what we do end--> 
+          <!--Book an Appointment start-->
+          <div class="col-lg-6 col-md-5 col-sm-12">
+            <h4 class="hs_heading" id="hs_appointment_form_link">Book an Appointment</h4>
+            <div class="hs_appointment_form_div"> <img src="http://placehold.it/555X365" width="512" height="365" alt=""/>
+              <div class="hs_appointment_form">
+                <form method="post">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-7 col-sm-6">
+                      <div class="form-group">
+                        <select class="form-control" id="slider_select_dep" name="select_dep">
+                          <option>Select Department</option>
+                          <option value="Department 1">Department 1</option>
+                          <option value="Department 2">Department 2</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="slider_fname" name="fname" placeholder="full Name  ( required )" required>
+                      </div>
+                      <div class="form-group">
+                        <input type="text" id="slider_phone" name="phone" class="form-control"  placeholder="Phone (required)" required>
+                      </div>
+                      <div class="form-group">
+                        <input type="email" id="slider_email" name="email" class="form-control"  placeholder="Email (required)" required>
+                      </div>
+                      <div class="form-group">
+                        <input type="date" id="slider_date" name="date" class="form-control">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-3">
+                      <button type="button" id="slider_book_apo" class="btn btn-default">Submit</button>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8">
+                      <p>Aenean facilisis sodales est nec gravida. Morbi vitae purus non est facilisis.</p>
+                    </div>
+                  </div>
+                  <p id="appointment_err"></p>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!--Book an Appointment end--> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hc_section" data-target="hc_team" id="hc_team">
+    <div class="container-fluid">
+      <div class="container"> 
+        <!--Our Doctor Team start-->
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h4 class="hs_heading" id="hs_meat_doc">Our Doctor Team</h4>
+            <div class="our_doctor_team">
+              <div id="our_doctor_team_slider" class="owl-carousel owl-theme">
+                <div class="our_doctor_team_slider_item"> <img src="http://placehold.it/360X360" alt="" />
+                  <div class="hs_team_member_detail">
+                    <h3>Dr Johnathan Treat</h3>
+                    <p>Quisque vitae interdum ipsum. Nulla eget mpernulla. Proin lacinia urna </p>
+                    <a href="profile-single.html" class="btn btn-default">Read More</a> </div>
+                </div>
+                <div class="our_doctor_team_slider_item"> <img src="http://placehold.it/360X360" alt="" />
+                  <div class="hs_team_member_detail">
+                    <h3>Dr. Edwin Spindrift</h3>
+                    <p>Quisque vitae interdum ipsum. Nulla eget mpernulla. Proin lacinia urna </p>
+                    <a href="profile-single.html" class="btn btn-default">Read More</a> </div>
+                </div>
+                <div class="our_doctor_team_slider_item"> <img src="http://placehold.it/360X360" alt="" />
+                  <div class="hs_team_member_detail">
+                    <h3>Dr Johnathan Treat</h3>
+                    <p>Quisque vitae interdum ipsum. Nulla eget mpernulla. Proin lacinia urna </p>
+                    <a href="profile-single.html" class="btn btn-default">Read More</a> </div>
+                </div>
+                <div class="our_doctor_team_slider_item"> <img src="http://placehold.it/360X360" alt="" />
+                  <div class="hs_team_member_detail">
+                    <h3>Dr. Edwin Spindrift</h3>
+                    <p>Quisque vitae interdum ipsum. Nulla eget mpernulla. Proin lacinia urna </p>
+                    <a href="profile-single.html" class="btn btn-default">Read More</a> </div>
+                </div>
+              </div>
+              <div class="customNavigation text-right"> <a class="btn_prev prev"><i class="fa fa-chevron-left"></i></a> <a class="btn_next next"><i class="fa fa-chevron-right"></i></a> </div>
+            </div>
+          </div>
+        </div>
+        <!--Our Doctor Team end-->
+        <div class="clearfix"></div>
+        <div class="row">
+			<div class="col-md-12 align-c pull-down-62 hs_portfolio index_portfolio"> 
+			  <!-- /.title -->
+			  <h4 class="hs_heading">Available Doctors</h4>
+			  <ul class="push-down-62 portfolio-filter" data-scrollreveal="enter from the bottom over 1s but wait 0.5s">
+				<li><a href="#" class="filter-item active" data-filter="all">All Team</a></li>
+				<li><a href="#" class="filter-item" data-filter="Pediatric">Heart specialist</a></li>
+				<li><a href="#" class="filter-item" data-filter="Cancer">General surgeons</a></li>
+				<li><a href="#" class="filter-item" data-filter="General">Orthopedic</a></li>
+				<li><a href="#" class="filter-item" data-filter="Physiotherapy">Physiotherapy</a></li>
+			  </ul>
+			  <!-- /.push-down-62 portfolio-filter --> 
+			</div>
+		</div>
+        <div class="clearfix"></div>
+        <div class="row portfolio-grid" id="grid">
+          <div class="col-md-4 col-sm-6 Pediatric Cancer mix">
+			  <div class="portfolio-item">
+				<img src="http://placehold.it/360X360" alt=""  />
+				<div class="portfolio_doctor_details">
+				  <h4>Dr. Neupane Commodo</h4>
+				  <p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
+				  <div class="hs_profile_social">
+					<ul>
+					  <li><a href=""><i class="fa fa-facebook"></i></a></li>
+					  <li><a href=""><i class="fa fa-twitter"></i></a></li>
+					  <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+					  <li><a href=""><i class="fa fa-skype"></i></a></li>
+					</ul>
+				  </div>
+				  <a href="" class="btn btn-success">Read More</a> </div>
+			  </div>
+          </div>
+          <!-- /.col-md-4 portfolio-item mix -->
+          <div class="col-md-4 col-sm-6 Cancer General mix">
+			  <div class="portfolio-item">
+				<img src="http://placehold.it/360X360" alt="" />
+				<div class="portfolio_doctor_details">
+				  <h4>Dr. Neupane Commodo</h4>
+				  <p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
+				  <div class="hs_profile_social">
+					<ul>
+					  <li><a href=""><i class="fa fa-facebook"></i></a></li>
+					  <li><a href=""><i class="fa fa-twitter"></i></a></li>
+					  <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+					  <li><a href=""><i class="fa fa-skype"></i></a></li>
+					</ul>
+				  </div>
+				  <a href="" class="btn btn-success">Read More</a> </div>
+			  </div>
+          </div>
+          <!-- /.col-md-4 portfolio-item mix -->
+          <div class="col-md-4 col-sm-6 General Physiotherapy printing mix">
+			  <div class="portfolio-item">
+				<img src="http://placehold.it/360X360" alt="" />
+				<div class="portfolio_doctor_details">
+				  <h4>Dr. Neupane Commodo</h4>
+				  <p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
+				  <div class="hs_profile_social">
+					<ul>
+					  <li><a href=""><i class="fa fa-facebook"></i></a></li>
+					  <li><a href=""><i class="fa fa-twitter"></i></a></li>
+					  <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+					  <li><a href=""><i class="fa fa-skype"></i></a></li>
+					</ul>
+				  </div>
+				  <a href="" class="btn btn-success">Read More</a> </div>
+			  </div>
+          </div>
+          <!-- /.col-md-4 portfolio-item mix -->
+          <div class="col-md-4 col-sm-6 Cancer printing Physiotherapy mix">
+			  <div class="portfolio-item">
+				<img src="http://placehold.it/360X360" alt="" />
+				<div class="portfolio_doctor_details">
+				  <h4>Dr. Neupane Commodo</h4>
+				  <p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
+				  <div class="hs_profile_social">
+					<ul>
+					  <li><a href=""><i class="fa fa-facebook"></i></a></li>
+					  <li><a href=""><i class="fa fa-twitter"></i></a></li>
+					  <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+					  <li><a href=""><i class="fa fa-skype"></i></a></li>
+					</ul>
+				  </div>
+				  <a href="" class="btn btn-success">Read More</a> </div>
+			  </div>
+          </div>
+          <!-- /.col-md-4 portfolio-item mix -->
+          <div class="col-md-4 col-sm-6 Pediatric Cancer mix">
+			  <div class="portfolio-item">
+				<img src="http://placehold.it/360X360" alt="" />
+				<div class="portfolio_doctor_details">
+				  <h4>Dr. Neupane Commodo</h4>
+				  <p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
+				  <div class="hs_profile_social">
+					<ul>
+					  <li><a href=""><i class="fa fa-facebook"></i></a></li>
+					  <li><a href=""><i class="fa fa-twitter"></i></a></li>
+					  <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+					  <li><a href=""><i class="fa fa-skype"></i></a></li>
+					</ul>
+				  </div>
+				  <a href="" class="btn btn-success">Read More</a> </div>
+			  </div>
+          </div>
+          <!-- /.col-md-4 portfolio-item mix -->
+          <div class="col-md-4 col-sm-6 Pediatric Cancer Physiotherapy mix">
+			  <div class="portfolio-item">
+				<img src="http://placehold.it/360X360" alt="" />
+				<div class="portfolio_doctor_details">
+				  <h4>Dr. Neupane Commodo</h4>
+				  <p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
+				  <div class="hs_profile_social">
+					<ul>
+					  <li><a href=""><i class="fa fa-facebook"></i></a></li>
+					  <li><a href=""><i class="fa fa-twitter"></i></a></li>
+					  <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+					  <li><a href=""><i class="fa fa-skype"></i></a></li>
+					</ul>
+				  </div>
+				  <a href="" class="btn btn-success">Read More</a> </div>
+			  </div>
+          </div>
+          <!-- /.col-md-4 portfolio-item mix -->
+          <div class="col-md-4 col-sm-6 Cancer printing Physiotherapy mix">
+			  <div class="portfolio-item">
+				<img src="http://placehold.it/360X360" alt="" />
+				<div class="portfolio_doctor_details">
+				  <h4>Dr. Neupane Commodo</h4>
+				  <p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
+				  <div class="hs_profile_social">
+					<ul>
+					  <li><a href=""><i class="fa fa-facebook"></i></a></li>
+					  <li><a href=""><i class="fa fa-twitter"></i></a></li>
+					  <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+					  <li><a href=""><i class="fa fa-skype"></i></a></li>
+					</ul>
+				  </div>
+				  <a href="" class="btn btn-success">Read More</a> </div>
+			  </div>
+          </div>
+          <!-- /.col-md-4 portfolio-item mix -->
+          <div class="col-md-4 col-sm-6 Pediatric Cancer mix">
+			  <div class="portfolio-item">
+				<img src="http://placehold.it/360X360" alt="" />
+				<div class="portfolio_doctor_details">
+				  <h4>Dr. Neupane Commodo</h4>
+				  <p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
+				  <div class="hs_profile_social">
+					<ul>
+					  <li><a href=""><i class="fa fa-facebook"></i></a></li>
+					  <li><a href=""><i class="fa fa-twitter"></i></a></li>
+					  <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+					  <li><a href=""><i class="fa fa-skype"></i></a></li>
+					</ul>
+				  </div>
+				  <a href="" class="btn btn-success">Read More</a> </div>
+			  </div>
+          </div>
+          <!-- /.col-md-4 portfolio-item mix -->
+          <div class="col-md-4 col-sm-6 Pediatric Cancer Physiotherapy mix">
+			  <div class="portfolio-item">
+				<img src="http://placehold.it/360X360" alt="" />
+				<div class="portfolio_doctor_details">
+				  <h4>Dr. Neupane Commodo</h4>
+				  <p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
+				  <div class="hs_profile_social">
+					<ul>
+					  <li><a href=""><i class="fa fa-facebook"></i></a></li>
+					  <li><a href=""><i class="fa fa-twitter"></i></a></li>
+					  <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+					  <li><a href=""><i class="fa fa-skype"></i></a></li>
+					</ul>
+				  </div>
+				  <a href="" class="btn btn-success">Read More</a> </div>
+			  </div>
+          </div>
+          <!-- /.col-md-4 portfolio-item mix --> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hc_section" data-target="hc_event" id="hc_event">
+    <div class="container-fluid">
+      <div class="container"> 
+        <!--Up Coming Events start-->
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h4 class="hs_heading">Up Coming Events</h4>
+            <div class="up_coming_events">
+              <div id="up_coming_events_slider" class="owl-carousel owl-theme">
+          <div class="up_coming_events_slider_item">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="hs_event_date">
+                  <h3>14</h3>
+                  <p>Feb</p>
+                </div>
+              </div>
+            </div>
+            <div class="hs_event_div">
+              <div class="row">
+                  <div class="col-lg-6 col-md-5 col-sm-6"> <img src="http://placehold.it/155X235" alt="" /> </div>
+                  <div class="col-lg-6 col-md-7 col-sm-12">
+                    <h4>Pelln sque vitae dolor non.</h4>
+                    <p>Cras sodaleut ligula, velit enim quis, neatis feugiat ante. Ut arcu nulla.Cras velit ligula, sodaleut enim quis, venenatis feugiat ante. lus facilisis nisl. </p>
+                    <a href="blog-single-post-rightsidebar.html" class="btn btn-default pull-right">Read More</a>
+				  </div>
+              </div>
+            </div>
+          </div>
+          <div class="up_coming_events_slider_item">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="hs_event_date">
+                  <h3>23</h3>
+                  <p>Feb</p>
+                </div>
+              </div>
+            </div>
+            <div class="hs_event_div">
+              <div class="row">
+                  <div class="col-lg-6 col-md-5 col-sm-6"> <img src="http://placehold.it/155X235" alt="" /> </div>
+                  <div class="col-lg-6 col-md-7 col-sm-12">
+                    <h4>Pelln sque vitae dolor non.</h4>
+                    <p>Cras sodaleut ligula, velit enim quis, neatis feugiat ante. Ut arcu nulla.Cras velit ligula, sodaleut enim quis, venenatis feugiat ante. lus facilisis nisl. </p>
+                    <a href="blog-single-post-rightsidebar.html" class="btn btn-default pull-right">Read More</a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="up_coming_events_slider_item">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="hs_event_date">
+                  <h3>24</h3>
+                  <p>Feb</p>
+                </div>
+              </div>
+            </div>
+            <div class="hs_event_div">
+              <div class="row">
+                  <div class="col-lg-6 col-md-5 col-sm-6"> <img src="http://placehold.it/155X235" alt="" /> </div>
+                  <div class="col-lg-6 col-md-7 col-sm-12">
+                    <h4>Pelln sque vitae dolor non.</h4>
+                    <p>Cras sodaleut ligula, velit enim quis, neatis feugiat ante. Ut arcu nulla.Cras velit ligula, sodaleut enim quis, venenatis feugiat ante. lus facilisis nisl. </p>
+                    <a href="blog-single-post-rightsidebar.html" class="btn btn-default pull-right">Read More</a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="up_coming_events_slider_item">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="hs_event_date">
+                  <h3>14</h3>
+                  <p>Feb</p>
+                </div>
+              </div>
+            </div>
+            <div class="hs_event_div">
+              <div class="row">
+                  <div class="col-lg-6 col-md-5 col-sm-6"> <img src="http://placehold.it/155X235" alt="" /> </div>
+                  <div class="col-lg-6 col-md-7 col-sm-12">
+                    <h4>Pelln sque vitae dolor non.</h4>
+                    <p>Cras sodaleut ligula, velit enim quis, neatis feugiat ante. Ut arcu nulla.Cras velit ligula, sodaleut enim quis, venenatis feugiat ante. lus facilisis nisl. </p>
+                    <a href="blog-single-post-rightsidebar.html" class="btn btn-default pull-right">Read More</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+              <div class="customNavigation text-right"> <a class="btn_prev prev"><i class="fa fa-chevron-left"></i></a> <a class="btn_next next"><i class="fa fa-chevron-right"></i></a> </div>
+            </div>
+          </div>
+        </div>
+        <!--Up Coming Events end--> 
+      </div>
+    </div>
+  </div>
+  <div class="hc_section" data-target="hc_about" id="hc_about">
+    <div class="container-fluid">
+      <div class="container"> 
+        <!--who we are start-->
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h4 class="hs_heading">Who We Are</h4>
+            <div class="row hs_how_we_are">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="col-lg-7 col-md-6 col-sm-12"> <img src="http://placehold.it/665X309" alt="" /> </div>
+                <div class="col-lg-5 col-md-6 col-sm-12">
+                  <div class="hs_how_we_are_text">
+                    <h4>Praesent massa orci, condimen vitae mattis quis, imperdiet non massa. </h4>
+                    <p></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur ag elit. Proin ipsum augue, rhoncus ac arcu ut, auclum est. AEtiam ligula orci, condim at turpis sed.Ppulvinar, poserat vitae, ultrices quis semper nisi porttitor. Aenean vel libero at nulla pulvinar placerat mauris Phasellus.</p>
+                    <a href="" class="btn btn-default">Read More</a> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--who we are end-->
+        
+        <div class="row">
+            <!--Our Hospital Updates start-->
+            <div class="col-lg-8 col-md-8 col-sm-8">
+              <h4 class="hs_heading">Our Hospital Updates</h4>
+              <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Sed dignissim pharetra odio pharetra Ecies. </a> </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                      <div class="hs_hospital_update"> <a href=""><img src="http://placehold.it/111X92" class="pull-left" alt=""/></a>
+                        <p>Aenean facilisis sodales est nec gravida. Morbi vitaes onest facilisis convallis commodo vel ante. Etiam ltricies lputate felis, non feugiat erat interdum ut. In ultricesam ut facilisetur,enim velit sodales lectus, laciniaui ultrices nibh nunc in est. Morbi vus onest facilisis convallis commodo vel ante.In ultricesam ut facilisetur,enim velit sodales lectus, laciniaui ultrices nibh nunc in est. Morbi vus onest facilisis convallis commodo vel ante. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Sed dignissim pharetra odio pharetra Ecies. </a> </h4>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <div class="hs_hospital_update"> <a href=""><img src="http://placehold.it/111X92" class="pull-left" alt=""/></a>
+                        <h5>Convallis commodo vel</h5>
+                        <p>Aenean facilisis sodales est nec gravida. Morbi vitaes onest facilisis convallis commodo vel ante. Etiam ltricies lputate felis, non feugiat erat interdum ut. In ultricesam ut facilisetur,enim velit sodales lectus, laciniaui ultrices nibh nunc in est.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Sed dignissim pharetra odio pharetra Ecies. </a> </h4>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Our Hospital Updates end--> 
+            
+            <!--Testimonials start-->
+            
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <h4 class="hs_heading">Testimonials</h4>
+              <div class="testimonial">
+                <ul class="testimonial_slider">
+                  <li>
+                    <div class="testimonial_content">
+                      <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1"> <img src="http://placehold.it/62X62" alt="" />
+                        <h5>Tom James</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. molestie nunc turpis,</p>
+                        <img src="http://placehold.it/62X62" alt="" />
+                        <h5>Tom James</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. molestie nunc turpis,</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="testimonial_content">
+                      <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1"> <img src="http://placehold.it/62X62" alt="" />
+                        <h5>Tom James</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. molestie nunc turpis,</p>
+                        <img src="http://placehold.it/62X62" alt="" />
+                        <h5>Tom James</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. molestie nunc turpis,</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="testimonial_content">
+                      <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1"> <img src="http://placehold.it/62X62" alt="" />
+                        <h5>Tom James</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. molestie nunc turpis,</p>
+                        <img src="http://placehold.it/62X62" alt="" />
+                        <h5>Tom James</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. molestie nunc turpis,</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="testimonial_content">
+                      <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1"> <img src="http://placehold.it/62X62" alt="" />
+                        <h5>Tom James</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. molestie nunc turpis,</p>
+                        <img src="http://placehold.it/62X62" alt="" />
+                        <h5>Tom James</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. molestie nunc turpis,</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--Testimonials end--> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hc_section" data-target="hc_contact" id="hc_contact">
+    <div class="hc_contact_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="hs_contact_head_text">
+              <h4 class="hs_contact_heading">Get in touch with us</h4>
+              <p>Suspendisse ultrices sapien sit amet accumsan pharetra. Phasellus nec turpis neque. Sed tortor lacus, eleifend vitae eros at, fermentum pellentesque leo. Proin justo elit, dapibus fermentum odio vitae, facilisis dictum tortor. </p>
+            </div>
+          </div>
+        </div>
+        <div class="row hlc_bottompadder40">
+          <div class="col-lg-8 col-md-7 col-sm-7">
+            <h4 class="hs_heading">Leave a Message</h4>
+            <div class="hs_comment_form">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="input-group"> <span class="input-group-btn">
+                    <button class="btn btn-success" type="button"><i class="fa fa-user"></i></button>
+                    </span>
+                    <input id="uname" type="text" class="form-control" placeholder="Full Name">
+                  </div>
+                  <!-- /input-group --> 
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="input-group"> <span class="input-group-btn">
+                    <button class="btn btn-success" type="button"><i class="fa fa-envelope"></i></button>
+                    </span>
+                    <input id="uemail" type="text" class="form-control" placeholder="Email">
+                  </div>
+                  <!-- /input-group --> 
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea id="message" class="form-control" rows="8"></textarea>
+                  </div>
+                  <!-- /input-group --> 
+                </div>
+                <p id="err"></p>
+                <div class="form-group">
+                  <div class="col-lg-8 col-md-8 col-sm-12">
+                    <div class="checkbox">
+                      <label>
+                      <input type="checkbox" id="hs_checkbox" class="css-checkbox lrg" checked="checked"/>
+                      <label for="hs_checkbox" name="checkbox69_lbl" class="css-label lrg hs_checkbox">Receive Your Comments By Email</label>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <button id="em_sub" class="btn btn-success pull-right" type="submit">Send</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-5">
+            <h4 class="hs_heading">Contact</h4>
+            <div class="hs_contact">
+              <ul>
+                <li> <i class="fa fa-map-marker"></i>
+                  <p>121 King St, Melbourne VIC 3000, Australia</p>
+                </li>
+                <li> <i class="fa fa-phone"></i>
+                  <p>+00 0 0000 0000</p>
+                  <p>+00 0 0000 0000</p>
+                </li>
+                <li> <i class="fa fa-envelope"></i>
+                  <p><a href="Mailto:info@healthcare.com">info@healthcare.com</a></p>
+                  <p><a href="Mailto:info@healthcare.com">info@healthcare.com</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="hs_contact_social">
+              <div class="hs_profile_social">
+                <ul>
+                  <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                  <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                  <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href=""><i class="fa fa-skype"></i></a></li>
+                  <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+	  <iframe class="google-map" src="https://maps.google.sk/maps/ms?msa=0&amp;msid=210946297010027755543.0004c74af772bb9276d33&amp;ie=UTF8&amp;ll=48.576981,19.13117&amp;spn=0,0&amp;t=m&amp;output=embed" width="100%" height="500" frameborder="0"></iframe>
+    </div>
+  </div>
+</div>
+<footer id="hs_footer">
+  <div class="container">
+    <div class="hs_footer_content">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="hs_footer_menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="blog-categories.html">Blog</a></li>
+              <li><a href="profile.html">Our profile</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-8">
+          <div class="row">
+            <div class="hs_footer_about_us">
+              <div class="col-lg-3 col-md-4 col-sm-12 col-md-12 col-sm-12">
+                <h4 class="hs_heading">About Us</h4>
+                <a href="index.html"><img src="images/logo.svg" alt="logo" width="180" height="41" /></a> </div>
+              <div class="col-lg-9 col-md-8 col-sm-12 hs_about_us">
+                <div class="hs_margin_60"></div>
+                <p>Aenean facilisis sodales est neciMorbi vitapurus on Est facilisisro convallis commodo velante, tiam ltricies lputate.Aenean facilisis sodales est neciMorbi vitapurus on Est facilisisro convallis commodo velante, tiam ltricies lputate. </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-3 col-sm-12">
+              <h4 class="hs_heading">Get in touch !</h4>
+              <div class="hs_contact_detail">
+                <p><i class="fa fa-map-marker"></i> 13/2 Elizabeth Street Melbourne VIC 3000, Australia</p>
+                <p><i class="fa fa-mobile-phone"></i> +61 3 8376 6284</p>
+                <div class="clearfix"></div>
+                <div class="hs_social">
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-9 col-sm-12">
+              <h4 class="hs_heading">Useful Links</h4>
+              <div class="clearfix"></div>
+              <div class="hs_footer_link">
+                <ul>
+                  <li><a href="services.html">Pediatric Clinic</a></li>
+                  <li><a href="services.html">Dental Clinic</a></li>
+                  <li><a href="services.html">General Surgery</a></li>
+                  <li><a href="services.html">Physiotherapy</a></li>
+                  <li><a href="services.html">Ltricies lputate</a></li>
+                </ul>
+              </div>
+              <div class="hs_footer_link">
+                <ul>
+                  <li><a href="blog-categories.html">Blog Categories</a></li>
+                  <li><a href="services-two-column.html">services Two Column</a></li>
+                  <li><a href="blog-single-post.html">Blog Single Post</a></li>
+                  <li><a href="services.html">services Three Column</a></li>
+                  <li><a href="blog-single-post-leftsidebar.html">Blog Leftsidebar</a></li>
+                </ul>
+              </div>
+              <div class="hs_footer_link">
+                <ul>
+                  <li><a href="blog-single-post-rightsidebar.html">Blog Rightsidebar</a></li>
+                  <li><a href="typography.html">Typography</a></li>
+                  <li><a href="elements.html">Elements</a></li>
+                  <li><a href="columns.html">columns</a></li>
+                  <li><a href="icon.html">icon</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <h4 class="hs_heading">Twitter Widget</h4>
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 hs_twitter_widget">
+              <ul>
+                <li> <i class="fa fa-twitter"></i> <a href="">
+                  <p>@healthcare...  Suspende potenti. Etiam ullamcorper scelerisque bibendumonec cursus,  eleifend semper. <br>
+                    <br>
+                    <strong>17 hours ago</strong> </p>
+                  </a> </li>
+                <li> <i class="fa fa-twitter"></i> <a href="">
+                  <p>@Hsoftindia...  Suspende potenti. Etiam ullamcorper scelerisque bibendumonec cursus,  eleifend semper. <br>
+                    <br>
+                    <strong>2 min ago</strong> </p>
+                  </a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="hs_copyright">Copyright © 2018 Health Care HTML Template. All Rights Reserved.</div>
+<!-- Main JS file start--> 
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="js/owl.carousel.min.js"></script> 
+<script type="text/javascript" src="js/jquery.bxslider.js"></script> 
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script> 
+<script type="text/javascript" src="js/smoothscroll.js"></script> 
+<script type="text/javascript" src="js/single-0.1.0.js"></script> 
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
