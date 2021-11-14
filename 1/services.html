@@ -1,5 +1,11 @@
 <!DOCTYPE html>
-
+<!-- 
+Template Name: Health Care HTML Template
+Version: 1.1.0
+Author: Kamleshyadav
+Website: http://himanshusofttech.com/
+Purchase: http://themeforest.net/user/kamleshyadav
+-->
 <html lang="en">
 <!--<![endif]-->
 <!-- BEGIN HEAD -->
@@ -25,38 +31,47 @@
 </head>
 <body>
 <!-- color picker start -->
+<!--Pre loader start-->
+<div id="preloader">
+	<div class="loading">
+		<svg version="1.2" height="300" width="600" xmlns="http://www.w3.org/2000/svg"
+			viewport="0 0 60 60" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<path id="pulsar" stroke="rgba(0,155,155,1)" fill="none" stroke-width="2"stroke-linejoin="round" d="M0,90L250,90Q257,60 262,87T267,95 270,88 273,92t6,35 7,-60T290,127 297,107s2,-11 10,-10 1,1 8,-10T319,95c6,4 8,-6 10,-17s2,10 9,11h210" />
+		</svg>
+	</div>
+</div>
+<!-- color picker start -->
 <div id="style-switcher" class="hs_color_set">
-  <div>
-    <h3>color options</h3>
-    <ul class="colors">
-      <li>
-        <p class='colorchange' id='color'></p>
-      </li>
-      <li>
-        <p class='colorchange' id='color2'></p>
-      </li>
-      <li>
-        <p class='colorchange' id='color3'></p>
-      </li>
-      <li>
-        <p class='colorchange' id='color4'></p>
-      </li>
-      <li>
-        <p class='colorchange' id='color5'></p>
-      </li>
-      <li>
-        <p class='colorchange' id='style'></p>
-      </li>
-    </ul>
-    <h3>Theme Option</h3>
-    <select class="rock_themeoption" onchange="location = this.options[this.selectedIndex].value;">
-      <option>Select Option</option>
-      <option value="one_page.html">Single Page</option>
-      <option value="index.html">Multi Pages</option>
-    </select>
-    <p> </p>
-  </div>
-  <div class="bottom"> <a href="" class="settings"><i class="fa fa-gear"></i></a> </div>
+	<div>
+		<h3>color options</h3>
+		<ul class="colors">
+			<li>
+				<p class='colorchange' id='color'></p>
+			</li>
+			<li>
+				<p class='colorchange' id='color2'></p>
+			</li>
+			<li>
+				<p class='colorchange' id='color3'></p>
+			</li>
+			<li>
+				<p class='colorchange' id='color4'></p>
+			</li>
+			<li>
+				<p class='colorchange' id='color5'></p>
+			</li>
+			<li>
+				<p class='colorchange' id='style'></p>
+			</li>
+		</ul>
+		<h3>Theme Option</h3>
+		<select class="rock_themeoption" onchange="location = this.options[this.selectedIndex].value;">
+			<option>Select Option</option>
+			<option value="one_page.html">Single Page</option>
+			<option value="index.html">Multi Pages</option>
+		</select>
+	</div>
+	<div class="bottom"> <a href="" class="settings"><i class="fa fa-gear"></i></a> </div>
 </div>
 <!-- color picker end --> 
 <!--header start-->
@@ -79,65 +94,40 @@
 <header id="hs_header">
   <div class="container">
     <div class="row">
-        <div class="col-lg-2 col-md-2 col-sm-12">
-          <div id="hs_logo" > <a href="index.html"> <img src="images/logo.svg" alt=""> </a> </div>
+        <div class="col-lg-2 col-md-2 col-sm-12 ">
+          <div id="hs_logo " >
+             <a href="index.html" class="" > <img class="hs_images " style="width: 50px;margin-top: 12px;" src="./images/temp/first-aid-kit.png" alt=""> </a> </div>
           <!-- #logo --> 
         </div>
         <div class="col-lg-8 col-md-8 col-sm-10">
           <button type="button" class="hs_nav_toggle navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Menu<i class="fa fa-bars"></i></button>
           <nav>
             <ul class="hs_menu collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <li><a class="active">Home</a>
-                <ul>
-                  <li><a href="index.html">home Version 1</a></li>
-                  <li><a href="index_babycare.html">home Version 2</a></li>
-                  <li><a href="index_dentist.html">home Version 3</a></li>
-                  <li><a href="one_page.html">home (One Page) V4</a></li>
-                  <li><a href="one_page_babycare.html">home (One Page) V5</a></li>
-                  <li><a href="one_page_dentist.html">home (One Page) V6</a></li>
-				  <li><a href="index_new.html">New Home Page</a></li>
-                </ul>
+              <li><a class="active" href="/">Home</a>
+              
               </li>
               <li><a href="about.html">about</a></li>
               <li><a>services</a>
                 <ul>
-                  <li><a href="services.html">Pediatric Clinic</a></li>
-                  <li><a href="services.html">Dental Clinic</a></li>
-                  <li><a href="services.html">General Surgery</a></li>
+                  <li><a href="services.html">Dentist</a></li>
+                  <li><a href="services.html">Gynecologist</a></li>
+                  <li><a href="services.html">Allergologist</a></li>
                   <li><a href="services.html">Physiotherapy</a></li>
-                  <li><a href="services.html">Pregnancy Care</a></li>
+                 
                 </ul>
               </li>
-              <li><a>pages</a>
+
+              <li><a>Languages</a>
                 <ul>
-                  <li><a>Blog</a>
-                    <ul>
-                      <li><a href="blog-categories.html">Blog Categories</a></li>
-                      <li><a href="blog-single-post.html">Blog Single Post</a></li>
-                      <li><a href="blog-single-post-leftsidebar.html">Blog Leftsidebar</a></li>
-                      <li><a href="blog-single-post-rightsidebar.html">Blog Rightsidebar</a></li>
-                    </ul>
-                  </li>
-                  <li><a>services</a>
-                    <ul>
-                      <li><a href="services-two-column.html">services Two Column</a></li>
-                      <li><a href="services.html">services Three Column</a></li>
-                      <li><a href="services-four-column.html">services Four Column</a></li>
-                    </ul>
-                  </li>
-                  <li><a>profile</a>
-                    <ul>
-                      <li><a href="profile-single.html">profile single</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="elements.html">Elements</a></li>
-                  <li><a href="typography.html">Typography</a></li>
-                  <li><a href="columns.html">columns</a></li>
-                  <li><a href="icon.html">icon</a></li>
+                  <li><a href="#">Uzbek</a></li>
+                  <li><a href="#">Russia</a></li>
+                  <li><a href="#">English</a></li>
+                 
+                 
                 </ul>
               </li>
-              <li><a href="profile.html">our profile</a></li>
-              <li><a href="blog-categories.html">our blog</a></li>
+     
+              </li>
               <li><a href="contact.html">Contact</a></li>
             </ul>
           </nav>
@@ -158,218 +148,167 @@
                 <span class="glyphicon glyphicon-search form-control-feedback"></span> </div>
             </form>
           </div>
-          
-          <!-- #logo --> 
         </div>
     </div>
-    <!-- .row --> 
   </div>
-  <!-- .container --> 
-  
 </header>
 <!--header end-->
 <div class="hs_page_title">
   <div class="container">
-    <h3>our team profile</h3>
+    <h3>Services</h3>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="services.html">profile</a></li>
+      <li><a href="services.html">Services</a></li>
     </ul>
   </div>
 </div>
 <div class="container">
-  <div class="row"> 
+  <div class="row">
 	  <div class="col-md-12 align-c pull-down-62 hs_portfolio index_portfolio"> 
 		<!-- /.title -->
-		<h4 class="hs_heading">Doctors Available</h4>
+		<h4 class="hs_heading">Services Available</h4>
 		<ul class="push-down-62 portfolio-filter" data-scrollreveal="enter from the bottom over 1s but wait 0.5s">
-		  <li><a href="#" class="filter-item active" data-filter="all">All Team</a></li>
-		  <li><a href="#" class="filter-item" data-filter="Pediatric">Heart specialist</a></li>
-		  <li><a href="#" class="filter-item" data-filter="Cancer">General surgeons</a></li>
-		  <li><a href="#" class="filter-item" data-filter="General">Orthopedic</a></li>
+		  <li><a href="#" class="filter-item active" data-filter="all">All Services</a></li>
+		  <li><a href="#" class="filter-item" data-filter="Pediatric">Pediatric Clinic</a></li>
+		  <li><a href="#" class="filter-item" data-filter="Cancer">Cancer Care</a></li>
+		  <li><a href="#" class="filter-item" data-filter="General">General Surgery</a></li>
 		  <li><a href="#" class="filter-item" data-filter="Physiotherapy">Physiotherapy</a></li>
 		</ul>
 		<!-- /.push-down-62 portfolio-filter --> 
 	  </div>
-  </div>
+  </div>  
   <div class="clearfix"></div>
-  <div class="row portfolio-grid" id="grid">
+  <div class="row push-down-62 portfolio-grid service_grid index_portfolio_content" id="grid">
     <div class="col-md-4 col-sm-6 Pediatric Cancer mix">
-	  <div class="portfolio-item">
-		  <img src="http://placehold.it/360X360" alt=""/>
-		  <div class="portfolio_doctor_details">
-			<h4>Dr. Neupane Commodo</h4>
-			<p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
-			<div class="hs_profile_social">
-			  <ul>
-				<li><a href=""><i class="fa fa-facebook"></i></a></li>
-				<li><a href=""><i class="fa fa-twitter"></i></a></li>
-				<li><a href=""><i class="fa fa-linkedin"></i></a></li>
-				<li><a href=""><i class="fa fa-skype"></i></a></li>
-			  </ul>
-			</div>
-			<a href="" class="btn btn-success">Read More</a> 
-		  </div>
-	  </div>
-	  
+		<div class="portfolio-item">
+		  <img src="http://placehold.it/360X416" alt=""/>
+		  <h3>Pediatric Clinic</h3>
+		  <div class="portfolio-details">
+			<h4>Pediatric Clinic</h4>
+			<p>Fusce auctor magna aus feugiat ultricies. Donec aliquet dolor elit volutpat neque pulvinar eu. Nullam dapibus metus sed dui congue congue. </p>
+			<a href="" class="btn btn-success">Read More</a> </div>
+		</div>
     </div>
     <!-- /.col-md-4 portfolio-item mix -->
     <div class="col-md-4 col-sm-6 Cancer General mix">
 		<div class="portfolio-item">
-		  <img src="http://placehold.it/360X360" alt=""/>
-		  <div class="portfolio_doctor_details">
-			<h4>Dr. Neupane Commodo</h4>
-			<p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
-			<div class="hs_profile_social">
-			  <ul>
-				<li><a href=""><i class="fa fa-facebook"></i></a></li>
-				<li><a href=""><i class="fa fa-twitter"></i></a></li>
-				<li><a href=""><i class="fa fa-linkedin"></i></a></li>
-				<li><a href=""><i class="fa fa-skype"></i></a></li>
-			  </ul>
-			</div>
-			<a href="" class="btn btn-success">Read More</a> 
-		  </div>
-		</div>	
+		  <img src="http://placehold.it/360X416" alt=""/>
+		  <h3>Dental Clinic</h3>
+		  <div class="portfolio-details">
+			<h4>Dental Clinic</h4>
+			<p>Fusce auctor magna aus feugiat ultricies. Donec aliquet dolor elit volutpat neque pulvinar eu. Nullam dapibus metus sed dui congue congue. </p>
+			<a href="" class="btn btn-success">Read More</a> </div>
+		</div>
     </div>
     <!-- /.col-md-4 portfolio-item mix -->
     <div class="col-md-4 col-sm-6 General Physiotherapy printing mix">
 		<div class="portfolio-item">
-		  <img src="http://placehold.it/360X360" alt=""/>
-		  <div class="portfolio_doctor_details">
-			<h4>Dr. Neupane Commodo</h4>
-			<p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
-			<div class="hs_profile_social">
-			  <ul>
-				<li><a href=""><i class="fa fa-facebook"></i></a></li>
-				<li><a href=""><i class="fa fa-twitter"></i></a></li>
-				<li><a href=""><i class="fa fa-linkedin"></i></a></li>
-				<li><a href=""><i class="fa fa-skype"></i></a></li>
-			  </ul>
-			</div>
+		  <img src="http://placehold.it/360X416" alt=""/>
+		  <h3>General Surgery</h3>
+		  <div class="portfolio-details">
+			<h4>General Surgery</h4>
+			<p>Fusce auctor magna aus feugiat ultricies. Donec aliquet dolor elit volutpat neque pulvinar eu. Nullam dapibus metus sed dui congue congue. </p>
 			<a href="" class="btn btn-success">Read More</a> </div>
 		</div>
     </div>
     <!-- /.col-md-4 portfolio-item mix -->
     <div class="col-md-4 col-sm-6 Cancer printing Physiotherapy mix">
 		<div class="portfolio-item">
-		  <img src="http://placehold.it/360X360" alt=""/>
-		  <div class="portfolio_doctor_details">
-			<h4>Dr. Neupane Commodo</h4>
-			<p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
-			<div class="hs_profile_social">
-			  <ul>
-				<li><a href=""><i class="fa fa-facebook"></i></a></li>
-				<li><a href=""><i class="fa fa-twitter"></i></a></li>
-				<li><a href=""><i class="fa fa-linkedin"></i></a></li>
-				<li><a href=""><i class="fa fa-skype"></i></a></li>
-			  </ul>
-			</div>
+		  <img src="http://placehold.it/360X416" alt=""/>
+		  <h3>Physiotherapy</h3>
+		  <div class="portfolio-details">
+			<h4>Physiotherapy</h4>
+			<p>Fusce auctor magna aus feugiat ultricies. Donec aliquet dolor elit volutpat neque pulvinar eu. Nullam dapibus metus sed dui congue congue. </p>
 			<a href="" class="btn btn-success">Read More</a> </div>
 		</div>
     </div>
     <!-- /.col-md-4 portfolio-item mix -->
     <div class="col-md-4 col-sm-6 Pediatric Cancer mix">
-		<div class="portfolio-item">
-		  <img src="http://placehold.it/360X360" alt=""/>
-		  <div class="portfolio_doctor_details">
-			<h4>Dr. Neupane Commodo</h4>
-			<p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
-			<div class="hs_profile_social">
-			  <ul>
-				<li><a href=""><i class="fa fa-facebook"></i></a></li>
-				<li><a href=""><i class="fa fa-twitter"></i></a></li>
-				<li><a href=""><i class="fa fa-linkedin"></i></a></li>
-				<li><a href=""><i class="fa fa-skype"></i></a></li>
-			  </ul>
-			</div>
-			<a href="" class="btn btn-success">Read More</a> </div>
-		</div>
+    <div class="portfolio-item">
+	  <img src="http://placehold.it/360X416" alt=""/>
+      <h3>Emergency Services</h3>
+      <div class="portfolio-details">
+        <h4>Emergency Services</h4>
+        <p>Fusce auctor magna aus feugiat ultricies. Donec aliquet dolor elit volutpat neque pulvinar eu. Nullam dapibus metus sed dui congue congue. </p>
+        <a href="" class="btn btn-success">Read More</a> </div>
+    </div>
     </div>
     <!-- /.col-md-4 portfolio-item mix -->
     <div class="col-md-4 col-sm-6 Pediatric Cancer Physiotherapy mix">
 		<div class="portfolio-item">
-		  <img src="http://placehold.it/360X360" alt=""/>
-		  <div class="portfolio_doctor_details">
-			<h4>Dr. Neupane Commodo</h4>
-			<p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
-			<div class="hs_profile_social">
-			  <ul>
-				<li><a href=""><i class="fa fa-facebook"></i></a></li>
-				<li><a href=""><i class="fa fa-twitter"></i></a></li>
-				<li><a href=""><i class="fa fa-linkedin"></i></a></li>
-				<li><a href=""><i class="fa fa-skype"></i></a></li>
-			  </ul>
-			</div>
+		  <img src="http://placehold.it/360X416" alt=""/>
+		  <h3>Pregnancy Care</h3>
+		  <div class="portfolio-details">
+			<h4>Pregnancy Care</h4>
+			<p>Fusce auctor magna aus feugiat ultricies. Donec aliquet dolor elit volutpat neque pulvinar eu. Nullam dapibus metus sed dui congue congue. </p>
 			<a href="" class="btn btn-success">Read More</a> </div>
 		</div>
     </div>
     <!-- /.col-md-4 portfolio-item mix -->
     <div class="col-md-4 col-sm-6 Cancer printing Physiotherapy mix">
 		<div class="portfolio-item">
-		<img src="http://placehold.it/360X360" alt=""/>
-		  <div class="portfolio_doctor_details">
-			<h4>Dr. Neupane Commodo</h4>
-			<p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
-			<div class="hs_profile_social">
-			  <ul>
-				<li><a href=""><i class="fa fa-facebook"></i></a></li>
-				<li><a href=""><i class="fa fa-twitter"></i></a></li>
-				<li><a href=""><i class="fa fa-linkedin"></i></a></li>
-				<li><a href=""><i class="fa fa-skype"></i></a></li>
-			  </ul>
-			</div>
+		  <img src="http://placehold.it/360X416" alt=""/>
+		  <h3>Cancer Care</h3>
+		  <div class="portfolio-details">
+			<h4>Cancer Care</h4>
+			<p>Fusce auctor magna aus feugiat ultricies. Donec aliquet dolor elit volutpat neque pulvinar eu. Nullam dapibus metus sed dui congue congue. </p>
 			<a href="" class="btn btn-success">Read More</a> </div>
 		</div>
     </div>
     <!-- /.col-md-4 portfolio-item mix -->
     <div class="col-md-4 col-sm-6 Pediatric Cancer mix">
 		<div class="portfolio-item">
-		  <img src="http://placehold.it/360X360" alt=""/>
-		  <div class="portfolio_doctor_details">
-			<h4>Dr. Neupane Commodo</h4>
-			<p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
-			<div class="hs_profile_social">
-			  <ul>
-				<li><a href=""><i class="fa fa-facebook"></i></a></li>
-				<li><a href=""><i class="fa fa-twitter"></i></a></li>
-				<li><a href=""><i class="fa fa-linkedin"></i></a></li>
-				<li><a href=""><i class="fa fa-skype"></i></a></li>
-			  </ul>
-			</div>
+		  <img src="http://placehold.it/360X416" alt=""/>
+		  <h3>Occupational Therapy</h3>
+		  <div class="portfolio-details">
+			<h4>Occupational Therapy</h4>
+			<p>Fusce auctor magna aus feugiat ultricies. Donec aliquet dolor elit volutpat neque pulvinar eu. Nullam dapibus metus sed dui congue congue. </p>
 			<a href="" class="btn btn-success">Read More</a> </div>
 		</div>
     </div>
     <!-- /.col-md-4 portfolio-item mix -->
     <div class="col-md-4 col-sm-6 Pediatric Cancer Physiotherapy mix">
 		<div class="portfolio-item">
-		  <img src="http://placehold.it/360X360" alt=""/>
-		  <div class="portfolio_doctor_details">
-			<h4>Dr. Neupane Commodo</h4>
-			<p>Donec suscipit, nulla nec dapibusccumsan, arcu arcu sodales urna, nec auctor odio elit ac nisl. In non arcu dictum.</p>
-			<div class="hs_profile_social">
-			  <ul>
-				<li><a href=""><i class="fa fa-facebook"></i></a></li>
-				<li><a href=""><i class="fa fa-twitter"></i></a></li>
-				<li><a href=""><i class="fa fa-linkedin"></i></a></li>
-				<li><a href=""><i class="fa fa-skype"></i></a></li>
-			  </ul>
-			</div>
+		  <img src="http://placehold.it/360X416" alt=""/>
+		  <h3>Ward</h3>
+		  <div class="portfolio-details">
+			<h4>Ward</h4>
+			<p>Fusce auctor magna aus feugiat ultricies. Donec aliquet dolor elit volutpat neque pulvinar eu. Nullam dapibus metus sed dui congue congue. </p>
 			<a href="" class="btn btn-success">Read More</a> </div>
 		</div>
     </div>
     <!-- /.col-md-4 portfolio-item mix --> 
   </div>
-  <div class="hs_pager">
-    <ul>
-      <li><a href=""><i class="fa fa-angle-left"></i></a></li>
-      <li><a href="">1</a></li>
-      <li><a href="">2</a></li>
-      <li><a href="">3</a></li>
-      <li><a href=""><i class="fa fa-angle-right"></i></a></li>
-    </ul>
+  
+  <!--Patients Testimonials start-->
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <h4 class="hs_heading">Patients Testimonials</h4>
+      <div class="patients_testimonials">
+        <div id="patients_testimonials_slider" class="owl-carousel owl-theme">
+          <div class="patients_testimonials_slider_item"> <img class="pull-left" src="http://placehold.it/130X130" alt=""/>
+            <h4>Edwin Spindrift</h4>
+            <p>Morbi at condimentum eram libero erat, feugiat id eros non, vestibulum fringilla metus. Nam ut nulla mollis, consectetur libero non, consectetur purus. Etiam eget tempus mi.</p>
+          </div>
+          <div class="patients_testimonials_slider_item"> <img class="pull-left" src="http://placehold.it/130X130" alt=""/>
+            <h4>Edwin Spindrift</h4>
+            <p>Morbi at condimentum eram libero erat, feugiat id eros non, vestibulum fringilla metus. Nam ut nulla mollis, consectetur libero non, consectetur purus. Etiam eget tempus mi.</p>
+          </div>
+          <div class="patients_testimonials_slider_item"> <img class="pull-left" src="http://placehold.it/130X130" alt=""/>
+            <h4>Edwin Spindrift</h4>
+            <p>Morbi at condimentum eram libero erat, feugiat id eros non, vestibulum fringilla metus. Nam ut nulla mollis, consectetur libero non, consectetur purus. Etiam eget tempus mi.</p>
+          </div>
+          <div class="patients_testimonials_slider_item"> <img class="pull-left" src="http://placehold.it/130X130" alt=""/>
+            <h4>Edwin Spindrift</h4>
+            <p>Morbi at condimentum eram libero erat, feugiat id eros non, vestibulum fringilla metus. Nam ut nulla mollis, consectetur libero non, consectetur purus. Etiam eget tempus mi.</p>
+          </div>
+        </div>
+        <div class="customNavigation text-right"> <a class="btn_prev prev"><i class="fa fa-chevron-left"></i></a> <a class="btn_next next"><i class="fa fa-chevron-right"></i></a> </div>
+      </div>
+    </div>
   </div>
-  <div class="hs_margin_60"></div>
+  <!--Patients Testimonials end-->
+  <div class="hs_margin_30"></div>
 </div>
 <footer id="hs_footer">
   <div class="container">
