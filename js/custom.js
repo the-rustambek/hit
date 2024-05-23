@@ -1,9 +1,9 @@
 /*
-Copyright (c) 2018 Health Care HTML Template
+Copyright (c) 2018 Hit uzbekistan
 ------------------------------------------------------------------
 [Master Javascript]
 
-Project:	Health Care HTML Template
+Project:	Hit uzbekistan
 
 -------------------------------------------------------------------*/
 

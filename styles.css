@@ -1,1 +1,4 @@
 /* No CSS *//*# sourceMappingURL=styles.css.map */
+html{
+    scroll-behavior: smooth;
+}
