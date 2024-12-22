@@ -35,6 +35,33 @@
 	  ga('send', 'pageview');
 
 	</script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Retrieve the `user` object from localStorage
+        const user = JSON.parse(localStorage.getItem("user"));
+
+        // Check if the user data exists
+        if (user) {
+            // Get reference to the table body
+            const tableBody = document.querySelector("table tbody");
+
+            // Create a new row
+            const newRow = document.createElement("tr");
+
+            // Populate the row with user data
+            newRow.innerHTML = `
+                <th scope="row">${tableBody.rows.length + 1}</th>
+                <td>${user.name}</td>
+                <td>${user.surname}</td>
+                <td>${user.phone}</td>
+            `;
+
+            // Append the row to the table body
+            tableBody.appendChild(newRow);
+        }
+    });
+</script>
+
 </head>
 <body>
 <!--Pre loader start-->
